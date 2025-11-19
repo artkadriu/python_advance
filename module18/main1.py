@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 
-books_df = pd.read_csv('bestsellers_with_categories_2022_03_27.csv')
+books_df = pd.read_csv('../module 19/bestsellers_with_categories_2022_03_27.csv')
 
 st.title("best selling book analyses")
 st.write("this is an app showing dataset")
