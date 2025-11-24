@@ -1,0 +1,21 @@
+{
+  "name": "John Doe",
+  "age": 25,
+  "address": {
+    "street": "123 Main St",
+    "city": "Prishtina",
+    "postal_code": "1000"
+  },
+
+  "contacts": [
+    {
+      "type": "email",
+      "value": "johndoe@gmail.com"
+    },
+    {
+      "type": "phone",
+      "value": "554-123-344"
+    }
+  ]
+
+}
