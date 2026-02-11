@@ -1,7 +1,7 @@
 import sqlite3
 from typing import List
 from fastapi import APIRouter, HTTPException, status, Depends
-from models.book import Book, BookCreate
+from models.books import Book, BookCreate
 from database import get_db_connection
 from auth.security import get_api_key
 

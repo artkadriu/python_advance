@@ -22,8 +22,8 @@ def generate_and_save_api_key():
     else:
         new_keys = api_key
 
-    set_key(env_file, key_to_set="API_KEYS", new_keys)
+    set_key(env_file, key_to_set="API_KEYS", value_to_set=new_keys)
     print(f"API Keys updated: {new_keys}")
 
-    if __name__ == "__main__":
-        generate_and_save_api_key()
+if __name__ == "__main__":
+    generate_and_save_api_key()
